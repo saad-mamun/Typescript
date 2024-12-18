@@ -1,7 +1,6 @@
 "use strict";
-const people = {
-    name: "Liton",
-    age: 21,
-    single: true
-};
-console.log(people);
+function printStatusCode(code) {
+    console.log(`My status code is ${code}.`);
+}
+printStatusCode(404);
+printStatusCode('200');
