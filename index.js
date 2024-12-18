@@ -10,4 +10,21 @@ names.push("Liton");
 const aj = ["liton", "mamun"];
 let myTuple;
 myTuple = [4, true, "Liton Vaiya"];
-console.log(myTuple);
+myTuple.push("Mamun");
+const car = {
+    names: "Tesla",
+    model: 2023
+};
+car.names = "Toyota";
+const bike = {
+    names: "Suzuki",
+};
+car.model = 2022;
+var CardinalDirections;
+(function (CardinalDirections) {
+    CardinalDirections[CardinalDirections["North"] = 12] = "North";
+    CardinalDirections[CardinalDirections["East"] = 13] = "East";
+    CardinalDirections[CardinalDirections["South"] = 14] = "South";
+    CardinalDirections[CardinalDirections["West"] = 15] = "West";
+})(CardinalDirections || (CardinalDirections = {}));
+console.log(CardinalDirections.South);
