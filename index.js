@@ -1,6 +1,5 @@
 "use strict";
-function printStatusCode(code) {
-    console.log(`My status code is ${code}.`);
+function sum(a, b) {
+    return a + b;
 }
-printStatusCode(404);
-printStatusCode('200');
+console.log(sum(10, 20));
